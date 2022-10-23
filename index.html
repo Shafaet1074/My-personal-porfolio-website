@@ -40,7 +40,18 @@
 
         
 
+
+
 </header>
+<div id="modified_date"></div>
+<script>
+    const page_location = window.location.href;
+    const text = document.lastModified;
+
+    const date = new Date(document.lastModified);
+
+    document.getElementById('modified_date').innerHTML = "Last updated on " +text+ " at " +page_location;
+ </script>
 
 
     
